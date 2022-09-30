@@ -156,6 +156,12 @@ li {
   -moz-columns: 2;
 }
 
+.personal--project--links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 @media (max-width: 600px) {
   #wrapper--hero {
     flex-direction: column;
